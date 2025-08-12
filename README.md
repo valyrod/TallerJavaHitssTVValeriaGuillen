@@ -19,7 +19,7 @@ Se requiere desarrollar un programa que reciba los nombres de 3 integrantes de t
 ---
 
 ### Ejercicio 2 – *Ejercicio 1 Bucle For*
-**Fecha:** 12/08/2025  
+**Fecha:** 12/08/2025
 **Descripción:**  
 > Mediante el teclado pedir dos números enteros positivos o negativos y multiplicarlos, pero sin usar el símbolo de multiplicación (*). Puede utilizar una sentencia for para realizar la multiplicación y tener en cuenta los unarios, donde menos por menos es positivo.
 
