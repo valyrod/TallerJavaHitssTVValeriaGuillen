@@ -36,4 +36,32 @@ Se requiere desarrollar un programa que reciba los nombres de 3 integrantes de t
 
 ---
 
+### Ejercicio 4 – *Ejercicio calificaciones*
+**Fecha:** 13/08/2025 
+**Descripción:**  
+> Pedir 20 notas finales de alumnos en una escala de 1 a 10, manejar decimales en las notas (double). Mostrar el promedio de las notas mayores o iguales a 6, promedio de notas inferiores a 6 y la cantidad de notas iguales a 1, además mostrar el promedio total.
+Ayuda: usar un bucle for que itere hasta 20 (notas) y dentro del ciclo pedir las notas una a una para realizar los cálculos (contadores, sumas).
+Opcional: si una de las notas ingresadas es menor que 1.0 o mayor que 10.0 debe salirse del ciclo for y mostrar un mensaje de error finalizando el programa.
+
+**Ubicación:** [`/ejercicios/Ejercicio3.java`](./ejercicios/Ejercicio3.java)  
+
+---
+### Ejercicio 5 – *Ejercicio Restaurante*
+**Fecha:** 14/08/2025 
+**Descripción:**  
+>Un restaurante necesita un programa que permita al cajero:
+
+ Mostrar un menú de opciones:
+1. Registrar un pedido.
+2. Mostrar el total de ventas.
+3. Salir del sistema.
+
+Cada pedido se registra ingresando el precio.
+El programa debe seguir mostrando el menú hasta que el cajero elija Salir.
+Validar que el precio sea positivo antes de sumarlo a las ventas.
+
+**Ubicación:** [`/ejercicios/EjercicioRestaurante.java`](./ejercicios/EjercicioRestaurante.java)  
+
+---
+
 
