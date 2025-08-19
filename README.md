@@ -46,6 +46,7 @@ Opcional: si una de las notas ingresadas es menor que 1.0 o mayor que 10.0 debe 
 **Ubicación:** [`/ejercicios/Ejercicio3.java`](./ejercicios/Ejercicio3.java)  
 
 ---
+
 ### Ejercicio 5 – *Ejercicio Restaurante*
 **Fecha:** 14/08/2025 
 **Descripción:**  
@@ -61,6 +62,23 @@ El programa debe seguir mostrando el menú hasta que el cajero elija Salir.
 Validar que el precio sea positivo antes de sumarlo a las ventas.
 
 **Ubicación:** [`/ejercicios/EjercicioRestaurante.java`](./ejercicios/EjercicioRestaurante.java)  
+
+---
+
+### Ejercicio 6 – *Ejercicio 2 Arrays*
+**Fecha:** 19/08/2025 
+**Descripción:**  
+>Para la tarea se debe crear un arreglo con 10 elementos (enteros en el rango de 1 a 9). Escriba un programa que imprima el número que tiene más ocurrencias en el arreglo y también imprimir la cantidad de veces que aparece en el arreglo.
+
+Por ejemplo, para el arreglo: [1, 2, 3, 3, 4, 5, 5, 5, 6, 7]
+
+Como resultado debería imprimir lo siguiente:
+1. La mayor ocurrencias es: 3
+2. El elemento que más se repite es: 5
+
+En el ejemplo, el elemento que más se repite en el arreglo es el número 5 con una ocurrencia de 3 veces.
+
+**Ubicación:** [`/ejercicios/ArrayEjercicio2.java`](./ejercicios/ArrayEjercicio2.java)  
 
 ---
 
