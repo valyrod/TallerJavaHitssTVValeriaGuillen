@@ -151,7 +151,7 @@ Ejemplo de funcionamiento esperado
 3.  **Visualizar resultados:**
     * El sistema debe mostrar el detalle de cada cuenta y un historial de las transacciones con sus IDs únicos.
 
-**Ubicación:** [`/ejercicios/SistemaBancario`](./ejercicios/SistemaBancario) 
+**Ubicación:** [`/ejercicios/SistemaBancario`](./ejercicios/sistemaBancario) 
 
 ---
 
