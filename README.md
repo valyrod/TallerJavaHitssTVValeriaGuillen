@@ -116,5 +116,44 @@ Si n es igual a cero imprimir "ERROR" y finalizar la ejecución del programa.
 
 ---
 
+### Ejercicio 8 – *Ejercicio de Sistema Bancario*
+**Fecha:** 27/08/2025 
+**Descripción:**  
+>Una institución bancaria necesita un sistema básico para administrar cuentas bancarias y registrar sus transacciones.
+
+Cada cuenta creada debe tener un ID único que se genere automáticamente sin que el usuario lo proporcione. Lo mismo debe ocurrir con cada transacción registrada.
+
+El sistema debe permitir las siguientes funcionalidades:
+
+1.  **Crear cuentas bancarias**
+    * Cada cuenta debe tener un **ID único**, el **nombre del titular** y el **saldo actual**.
+
+2.  **Realizar operaciones bancarias**
+    * **Depósito**: Aumentar el saldo de la cuenta.
+    * **Retiro**: Disminuir el saldo, siempre que haya suficiente dinero disponible.
+
+3.  **Registrar transacciones asociadas a las cuentas**
+    * Cada transacción debe tener un **ID único automático**, el **tipo de operación** (depósito o retiro), el **monto** y la **cuenta asociada**.
+
+4.  **Mostrar información**
+    * Visualizar el detalle de las cuentas y el historial de las transacciones realizadas.
+
+Ejemplo de funcionamiento esperado
+
+1.  **Crear dos cuentas:**
+    * Ana con $5000
+    * Luis con $10000
+
+2.  **Realizar operaciones:**
+    * Ana deposita $2000 y retira $1000.
+    * Luis retira $3000 y deposita $1500.
+
+3.  **Visualizar resultados:**
+    * El sistema debe mostrar el detalle de cada cuenta y un historial de las transacciones con sus IDs únicos.
+
+**Ubicación:** [`/ejercicios/SistemaBancario`](./ejercicios/SistemaBancario) 
+
+---
+
 
 
