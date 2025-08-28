@@ -155,5 +155,71 @@ Ejemplo de funcionamiento esperado
 
 ---
 
+### Ejercicio 9 – *Ejercicio de Sistema de Pedidos*
+**Fecha:** 28/08///2025 
+**Descripción:** 
+>Ejercicio: Sistema de Pedidos
+
+Fecha: 28 de agosto de 2025
+
+Descripción del Ejercicio
+Este proyecto implementa un mini sistema de pedidos en Java. El objetivo es utilizar adecuadamente las enumeraciones (enums) para definir los estados, prioridades y métodos de pago de un pedido, y una clase para representar el pedido en sí.
+
+Paso 1: Creación de Enumeraciones (enums)
+Se crearon tres enumeraciones, cada una con un propósito específico y con un valor asociado a sus constantes:
+1. OrderStatus: Define los estados posibles de un pedido (NEW, PROCESSING, SHIPPED, DELIVERED, CANCELLED). Cada estado tiene una descripción asociada.
+2. OrderPriority: Define los niveles de prioridad de un pedido (LOW, MEDIUM, HIGH). Cada nivel tiene un número de atención (1 = baja, 3 = alta).
+3. PaymentMethod: Define los métodos de pago aceptados (CASH, CARD, TRANSFER). Cada método tiene una descripción completa.
+
+Paso 2: Creación de la Clase Order
+Se creó una clase Order que encapsula toda la información de un pedido. Sus atributos son:
+- int id: Identificador único del pedido.
+- String customer: Nombre del cliente.
+- OrderStatus status: El estado actual del pedido.
+- OrderPriority priority: El nivel de prioridad del pedido.
+- PaymentMethod paymentMethod: El método de pago utilizado.
+La clase también incluye un método showDetails() que imprime en la consola todos los detalles del pedido de manera legible.
+
+Paso 3: Clase Principal TestMain
+La clase TestMain contiene el método main y sirve como punto de entrada del programa. En ella, se realizan las siguientes acciones:
+1. Se crean tres instancias diferentes de la clase Order con distintos valores para sus atributos.
+2. Se llama al método showDetails() de cada instancia para mostrar sus datos en pantalla.
+
+Estructura del Proyecto
+El código está organizado en paquetes para una mejor práctica de programación, siguiendo la siguiente estructura:
+SISTEMADEPEDIDOS/
+├── clases/
+│   └── Order.java
+├── enums/
+│   ├── OrderPriority.java
+│   ├── OrderStatus.java
+│   └── PaymentMethod.java
+└── test/
+    └── TestMain.java
+
+Ejemplo de Salida Esperada
+Pedido #1
+Cliente: Ana
+Estado: NEW -> Pedido creado
+Prioridad: HIGH (Nivel 3)
+Método de pago: CARD -> Tarjeta de crédito/débito
+
+Pedido #2
+Cliente: Luis
+Estado: SHIPPED -> Pedido enviado
+Prioridad: MEDIUM (Nivel 2)
+Método de pago: CASH -> Efectivo
+
+Pedido #3
+Cliente: Carlos
+Estado: CANCELLED -> Pedido cancelado
+Prioridad: LOW (Nivel 1)
+Método de pago: TRANSFER -> Transferencia bancaria
+
+**Ubicación:** [`/ejercicios/sistemaDePedidos`](./ejercicios/sistemaDePedidos)  
+
+---
+
+
 
 
