@@ -342,5 +342,16 @@ productos[4] = new Libro(14000, "Martin Fowler", "UML Gota a Gota", "Alguna...")
 
 ---
 
+### Ejercicio 13 – *Ejercicio de Gestión y Validación de Usuarios*
+**Fecha:** 08/09/2025 
+
+**Descripción:** 
+
+Haz un programa que lea un archivo de texto con nombres de usuarios. Si el archivo no existe, captura la excepción. Además, valida que cada nombre tenga al menos 3 caracteres; si no, lanza una excepción personalizada NombreInvalidoException.
+
+**Ubicación:** [`/ejercicios/gestionValidacionDeUsuarios`](./ejercicios/gestionValidacionDeUsuarios)  
+
+---
+
 
 
