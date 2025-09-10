@@ -353,5 +353,19 @@ Haz un programa que lea un archivo de texto con nombres de usuarios. Si el archi
 
 ---
 
+### Ejercicio 14 – *Ejercicio de Carrito de Supermercado*
+**Fecha:** 10/09/2025 
+
+**Descripción:** 
+
+Entonces como requerimiento vamos a tener 4 clases de productos Fruta, Limpieza, Lacteo y NoPerecible, todas tienen en común dos atributos el nombre (string) y precio (double) que deben heredar de la clase padre Producto, pero además cada una van a tener dos atributos propios adicionales, sus métodos getter y constructor para inicializar los 4 atributos (los 2 del padre y los 2 propios).
+
+Para el ejemplo de la clase main se pide crear un objeto bolsa para cada tipo de producto con 5 elementos, se debe mostrar por cada bolsa el detalle completo de sus elementos, el precio, nombre y los atributos adicionales sin realizar cast de ningún tipo, ni toString().
+
+
+**Ubicación:** [`/ejercicios/carritoSupermercado`](./ejercicios/carritoSupermercado)  
+
+---
+
 
 
