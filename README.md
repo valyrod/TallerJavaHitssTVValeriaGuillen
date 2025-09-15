@@ -367,5 +367,30 @@ Para el ejemplo de la clase main se pide crear un objeto bolsa para cada tipo de
 
 ---
 
+### Ejercicio 15 – *Ejercicio de Facturación*
+**Fecha:** 15/09/2025 
+
+**Descripción:** 
+
+Realiza una clase con metodos estaticos, los cuales son:
+
+1.- Guardar en un archivo la factura, con la siguiente nomenclatura en el nombre del archivo: "factura_idFactura.txt", todas las facturas se guardan en una carpeta llamada "facturas"
+    
+    Ejemplo: Archivos.guardarFactura(f1);
+    
+2.- Leer la factura y mostrar en consola
+    
+    Ejemplo: Archivos.leerFactura(idFactura);
+
+3.- Listar los nombres de todas las facturas existentes
+
+     factura_1.txt
+     factura_2.txt
+
+
+**Ubicación:** [`/ejercicios/sistemaTV`](./ejercicios/sistemaTV)  
+
+---
+
 
 
