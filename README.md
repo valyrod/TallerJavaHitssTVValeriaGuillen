@@ -362,7 +362,6 @@ Entonces como requerimiento vamos a tener 4 clases de productos Fruta, Limpieza,
 
 Para el ejemplo de la clase main se pide crear un objeto bolsa para cada tipo de producto con 5 elementos, se debe mostrar por cada bolsa el detalle completo de sus elementos, el precio, nombre y los atributos adicionales sin realizar cast de ningún tipo, ni toString().
 
-
 **Ubicación:** [`/ejercicios/carritoSupermercado`](./ejercicios/carritoSupermercado)  
 
 ---
@@ -387,8 +386,32 @@ Realiza una clase con metodos estaticos, los cuales son:
      factura_1.txt
      factura_2.txt
 
-
 **Ubicación:** [`/ejercicios/sistemaTV`](./ejercicios/sistemaTV)  
+
+---
+
+### Ejercicio 16 – *Ejercicio Proyecto Vuelo*
+**Fecha:** 18/09/2025 
+
+**Descripción:** 
+
+Una lista de objetos List del tipo Vuelo que mantenga el mismo orden de registro de la tabla.
+
+La clase Vuelo debe contener los atributos nombre (string), origen (string), destino (string), fecha de llegada que incluya fecha y hora (java.time.LocalTime, java.time.LocalDate) y cantidad de pasajeros.
+
+Se pide ordenar por llegada de forma ascendente, obtener el último vuelo en llegar y también se pide el vuelo que tiene menor número de pasajeros.
+
+El resultado final debería ser, similar a:
+
+```plaintext
+... listado ordenado por fecha llegada ascendente ...
+
+El último vuelo en llegar es CMP 111: Panama City, aterriza el Tue Aug 31 15:15:00 2021
+
+El vuelo con menor número de pasajeros es AVA 241: Bogota, con 25 pasajeros.
+```
+
+**Ubicación:** [`/ejercicios/proyectoVuelo`](./ejercicios/proyectoVuelo)  
 
 ---
 
