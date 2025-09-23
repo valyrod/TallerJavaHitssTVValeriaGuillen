@@ -420,8 +420,6 @@ El vuelo con menor número de pasajeros es AVA 241: Bogota, con 25 pasajeros.
 
 **Descripción:** 
 
-# Gestión de un Torneo Deportivo Universitario
-
 La universidad organiza un torneo deportivo con varias disciplinas (fútbol, básquetbol, voleibol, etc.).
 
 Cada disciplina tiene un conjunto de jugadores inscritos.
