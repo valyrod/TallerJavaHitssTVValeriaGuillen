@@ -415,5 +415,76 @@ El vuelo con menor número de pasajeros es AVA 241: Bogota, con 25 pasajeros.
 
 ---
 
+### Ejercicio 17 – *Ejercicio de Gestión de un Torneo Deportivo Universitario*
+**Fecha:** 22/09/2025 
+
+**Descripción:** 
+
+# Gestión de un Torneo Deportivo Universitario
+
+La universidad organiza un torneo deportivo con varias disciplinas (fútbol, básquetbol, voleibol, etc.).
+
+Cada disciplina tiene un conjunto de jugadores inscritos.
+
+Requisitos del sistema:
+
+1. Registro de jugadores en cada disciplina
+     - Cada jugador se identifica por un ID único y tiene un nombre.
+     - No se permiten jugadores duplicados (un jugador no puede inscribirse dos veces en la misma disciplina).
+
+2. Mostrar inscripciones con distintas implementaciones de `Set`:
+     - Usar `HashSet` → para verificar rápidamente inscripciones, sin importar el orden.
+     - Usar `LinkedHashSet` → para mostrar los jugadores en el orden en que se inscribieron.
+     - Usar `TreeSet` → para mostrar a los jugadores ordenados alfabéticamente por nombre.
+
+3. Operaciones requeridas:
+     - Registrar un jugador en una disciplina (evitar duplicados).
+     - Mostrar todos los jugadores inscritos en cada disciplina, de acuerdo con la implementación de `Set`.
+     - Buscar si un jugador está inscrito en cierta disciplina.
+     - Eliminar un jugador de una disciplina.
+
+4.  El usuario puede elegir del menú distintas operaciones:
+    1.  Mostrar jugadores por deporte.
+    2.  Contar jugadores en cada disciplina.
+    3.  Fusionar equipos (unión).
+    4.  Ver jugadores en común (intersección).
+    5.  Transferir un jugador de un deporte a otro.
+    6.  Mostrar todos los jugadores ordenados por nombre.
+    7.  Mostrar todos los jugadores en orden de inscripción.
+    8.  Mostrar ranking de jugadores por ID.
+    9.  Salir
+
+
+Pruebas:
+
+1. Contar jugadores inscritos en cada disciplina
+     - Muestra cuántos jugadores hay inscritos en fútbol, básquetbol y vóleibol.
+
+2. Fusionar equipos
+     - Supón que fútbol y básquetbol harán un entrenamiento conjunto.
+     - Une los jugadores de ambos equipos.
+     - Muestra los jugadores únicos.
+
+3. Encontrar jugadores comunes entre deportes
+     - Un estudiante puede estar inscrito en más de un deporte.
+     - Encuentra los jugadores que están inscritos tanto en fútbol como en básquetbol.
+
+4. Mover jugadores de un deporte a otro
+     - Un jugador se transfiere de básquetbol a fútbol.
+     - Elimínalo de básquetbol y agrégalo al de fútbol.
+
+5. Mostrar jugadores ordenados por nombre
+     - Inserta todos los jugadores de todos los deportes y muéstralos en orden alfabético.
+
+6. Generar un listado en orden de inscripción
+     - Simula inscribir jugadores en varios deportes.
+
+7. Ranking de jugadores por ID
+     - Inserta a todos los jugadores ordenados por ID.
+     - Muestra el ranking de jugadores con el ID más bajo al más alto.
+
+**Ubicación:** [`/ejercicios/gestionTorneoDeportivoUniversitario`](./ejercicios/gestionTorneoDeportivoUniversitario)  
+
+---
 
 
