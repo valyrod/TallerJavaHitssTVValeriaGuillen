@@ -452,7 +452,6 @@ Requisitos del sistema:
     8.  Mostrar ranking de jugadores por ID.
     9.  Salir
 
-
 Pruebas:
 
 1. Contar jugadores inscritos en cada disciplina
@@ -482,6 +481,36 @@ Pruebas:
      - Muestra el ranking de jugadores con el ID más bajo al más alto.
 
 **Ubicación:** [`/ejercicios/gestionTorneoDeportivoUniversitario`](./ejercicios/gestionTorneoDeportivoUniversitario)  
+
+---
+
+### Ejercicio 18 – *Ejercicio de Gestión de Inventario en una Tienda de Deportes*
+**Fecha:** 24/09/2025 
+
+**Descripción:** 
+
+Una cadena de tiendas de deportes maneja miles de productos (tenis, camisetas, balones, etc.). 
+
+Cada producto tiene:
+1. Código único (SKU)
+2. Nombre del producto
+3. Categoría (fútbol, baloncesto, running, etc.)
+4. Stock disponible en cada sucursal
+
+El reto es gestionar el inventario de manera eficiente:
+1. Poder acceder rápidamente a un producto por su código.
+2. Mantener los productos ordenados por nombre para listados.
+3. Mantener el orden de inserción para reportes de recepción de mercancía.
+
+Requisitos del sistema:
+
+1. Registrar productos en el inventario.
+2. Consultar un producto en O(1) usando su código SKU.
+3. Generar un reporte de productos en el orden en que fueron agregados.
+4. Generar un reporte de productos ordenados alfabéticamente por nombre.
+5. Actualizar stock cuando se registren ventas o lleguen nuevas unidades.
+
+**Ubicación:** [`/ejercicios/gestionInventarioTiendaDeportes`](./ejercicios/gestionInventarioTiendaDeportes)  
 
 ---
 
