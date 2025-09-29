@@ -548,4 +548,15 @@ La universidad desea un sistema para gestionar cursos, estudiantes y profesores 
 
 ---
 
+### Ejercicio 20 – *Ejercicio de frase Lambda*
+**Fecha:** 29/09/2025 
+
+**Descripción:** 
+
+Expresión Lambda que elimine espacios, comas y puntos de una frase y además devuelva la frase convertida en mayúsculas.
+
+**Ubicación:** [`/ejercicios/fraseLamda`](./ejercicios/fraseLamda)  
+
+---
+
 
