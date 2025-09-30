@@ -559,4 +559,21 @@ Expresión Lambda que elimine espacios, comas y puntos de una frase y además de
 
 ---
 
+### Ejercicio 21 – *Ejercicio de Palabra más repetida (Lambda)*
+**Fecha:** 30/09/2025 
+
+**Descripción:** 
+Para la tarea se pide como requerimiento escribir una expresión lambda que cuenta la cantidad de veces que se repiten las palabras de una frase y devuelva la más repetida, según lo siguiente:
+
+1. La expresión lambda debe recibir por argumento una frase u oración y devolver un objeto Map que contenga la palabra más repetida de la frase como llave y la cantidad de veces que se repite como valor.
+
+2. Tiene que devolver un objeto Map de java
+
+3. Mostrar el resultado en consola iterando el map o bien obteniendo el primer elemento con get().
+
+
+**Ubicación:** [`/ejercicios/repeticionPalabrasLambda`](./ejercicios/repeticionPalabrasLambda)  
+
+---
+
 
