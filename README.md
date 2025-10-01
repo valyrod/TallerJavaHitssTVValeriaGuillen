@@ -563,6 +563,7 @@ Expresión Lambda que elimine espacios, comas y puntos de una frase y además de
 **Fecha:** 30/09/2025 
 
 **Descripción:** 
+
 Para la tarea se pide como requerimiento escribir una expresión lambda que cuenta la cantidad de veces que se repiten las palabras de una frase y devuelva la más repetida, según lo siguiente:
 
 1. La expresión lambda debe recibir por argumento una frase u oración y devolver un objeto Map que contenga la palabra más repetida de la frase como llave y la cantidad de veces que se repite como valor.
@@ -576,4 +577,53 @@ Para la tarea se pide como requerimiento escribir una expresión lambda que cuen
 
 ---
 
+### Ejercicio 22 – *Ejercicio de un Sistema de Punto de Venta de Supermercado*
+**Fecha:** 01/10/2025 
+
+**Descripción:** 
+
+Un supermercado quiere implementar un sistema básico de gestión de ventas.
+
+Los objetos principales son:
+
+1.  Producto
+    - id (int)
+    - nombre (String)
+    - precio (double)
+    - stock (int)
+
+2. Cliente
+    - id (int)
+    - nombre (String)
+    - tipo (String => "Normal", "VIP")
+
+3. Empleado
+    - id (int)
+    - nombre (String)
+    - puesto (String)
+
+4. Venta
+    - id (int)
+    - cliente (Cliente)
+    - empleado (Empleado)
+    - productos (List<Producto>)
+    - total (double)
+
+Requerimientos del sistema:
+
+Se deben implementar operaciones utilizando interfaces funcionales:
+1. Filtrar productos con stock bajo (stock < 5).
+2. Calcular el total de una venta a partir de la lista de productos.
+3. Imprimir los detalles de una venta.
+4. Generar un producto de muestra para pruebas.
+5. Aplicar un descuento del 10% a un producto.
+6. Comparar dos productos y devolver el más caro.
+7. Verificar si un cliente puede acceder a un descuento (ej. si es VIP y la compra supera 1000).
+8. Generar un ticket de venta con Cliente + Venta, simulado en consola.
+9. Notificar a un cliente que su compra fue procesada por un empleado.
+10. Tener una clase SupermercadoService, donde se tengan las operaciones. 
+
+**Ubicación:** [`/ejercicios/sistemaPuntoVentaSupermercado`](./ejercicios/sistemaPuntoVentaSupermercado)  
+
+---
 
