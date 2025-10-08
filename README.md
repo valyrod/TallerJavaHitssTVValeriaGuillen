@@ -627,3 +627,29 @@ Se deben implementar operaciones utilizando interfaces funcionales:
 
 ---
 
+### Ejercicio 23 – *Ejercicio de Sistema de Recursos Humanos y Evaluación de Desempeño*
+**Fecha:** 08/10/2025 
+
+**Descripción:** 
+
+Una empresa de tecnología quiere analizar los datos de sus empleados para generar reportes de recursos humanos.
+
+Cada empleado tiene un historial de evaluaciones anuales, además de información básica como id, nombre, departamento, salario y años de experiencia.
+
+La clase Evaluación tiene el año y el puntaje (1-100).
+
+La empresa quiere generar reportes de manera eficiente.
+
+Requisitos empresariales:
+1. Listar todos los empleados de un departamento específico (ej: "IT"), ordenados alfabéticamente.
+2. Calcular el salario promedio por departamento.
+3. Obtener el empleado con mayor salario en toda la empresa.
+4. Listar todos los empleados con más de 5 años de experiencia y salario mayor a 50,000.
+5. Obtener el top 3 de empleados con mejor puntaje en la última evaluación (último año).
+6. Contar cuántos empleados tienen al menos una evaluación superior a 90 puntos.
+7. Generar un ranking de promedio de puntajes por empleado.
+
+**Ubicación:** [`/ejercicios/sistemaRH`](./ejercicios/sistemaRH)  
+
+---
+
